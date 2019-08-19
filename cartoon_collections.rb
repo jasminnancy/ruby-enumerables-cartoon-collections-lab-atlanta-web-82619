@@ -14,10 +14,10 @@ end
 
 def long_planeteer_calls(array)
  array.map do |call|
-    if call.length < 5
-      return false
+    if call.length > 4
+      return true
     end
-    return true
+    return false
   end
 end
 
