@@ -27,7 +27,6 @@ def find_the_cheese(array)
     if cheese == cheese_types
       return cheese
     end
-    memo
   end
   return nil
 end
