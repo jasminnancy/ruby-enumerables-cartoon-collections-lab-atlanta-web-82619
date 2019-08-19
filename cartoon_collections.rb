@@ -24,6 +24,9 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.map do |cheese|
-    cheese == cheese_types
+    if cheese == cheese_types
+      return cheese
+    end
   end
+  return nil
 end
